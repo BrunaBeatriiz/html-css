@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Nabla:EDPT@0..200&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0px;
+}
+body{
+    background-color: #37f08d;
+}
+header{
+    height:150px;
+    background-image: linear-gradient(to bottom, #35DB82,#33D37D,#2AB169,#2AB169,#2F704D);
+    border:10px;
+    padding: 12px 0px 0px 0px;
+}
+h1{
+   font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+   text-align: center;
+   font-size: 1.6em;
+   font-weight: 500;
+   color: beige;
+   border:5px;
+   text-shadow: 1px 1px 2px rgba(206, 206, 183, 0.507);
+   margin: 0px;
+   padding: 2px 0px 24px 0px;
+}
+p#titulo{
+    font-family:'Noto Serif', 'Times New Roman', Times, serif;
+    text-align: center;
+    color: beige;
+    font-size: 0.9em;
+    margin: 0px;
+}
+nav{
+    border:0px;
+    margin: 45px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+}
+nav > a{
+    color:beige;
+    text-decoration: none;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 0.6em;
+    border:5px;
+    margin:5px;
+}
+
+main{
+    background-color: #e7f3ec;
+    padding: 20px;
+    margin: 0px 220px 0px 220px;
+}
+h2{
+    font-family: 'Jersey 10', 'Times New Roman', Times, serif;
+    color: #22834f;
+    border: 1px #0f3b249d;
+    font-size: 2.5em;
+}
+h3{
+    font-family: 'Jersey 10', 'Times New Roman', Times, serif;
+    color: #2bac67;
+    border: 1px #175a389d;
+    font-size: 1.5em;
+}
+p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-indent: 30px;
+}
+h4{
+    background-color: #2AB169;
+    color:beige;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+    border-radius: 5px 5px 0px 0px;
+    padding:8px
+    ;
+}
+div#saibamais{
+    background-color:#8aecb8;
+    border-radius: 0px 0px 5px 5px;
+    padding:8px
+    ;
+}
+footer{
+    background-color:#2F704D ;
+    color:beige;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+p#pad{
+    padding: 10px 5px 8px 3px;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+    /*height:100%;*/
+}
+
+body{
+    background-image:linear-gradient(to right,#B185D6,#6214A3);
+}
+main{
+    background-color:white;
+    border-radius:10px;
+    box-shadow:5px 5px 15px #522a217e;
+    width:600px;
+    padding:12px;
+    margin:auto;
+}
+h1{
+    color:#191970;
+    text-align:center;
+    text-shadow:1px 1px 2px #13135398 ;
+}
+h2{
+    color:#835710;
+    text-shadow: 1px 1px 2px  #50350a9d ;
+}
+p{
+    color:#7D6A3B;
+    text-align:justify;
+    text-shadow:1px 1px 1px #554829;
+}
