@@ -59,11 +59,10 @@ header>p {
     font-weight: lighter;
     max-width: 500px;
     margin: auto;
-    margin-bottom: 30px;
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.418);
 }
 
