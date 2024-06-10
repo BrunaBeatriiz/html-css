@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício de Tabelas</title>
+    <Style>
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption{
+            font-size: ;
+            background-color: aliceblue;
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.377);
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .profissao{
+            background-color: rgb(176, 224, 243);
+        }
+    </Style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao"> 
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Beatriz</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Mo Salah</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>Janaína</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Júlia</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Casimiro</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Empresãrio</td>
+        </tr>
+        <tr class="destaque">
+            <td>Daemon</td>
+            <td>M</td>
+            <td>37</td>
+            <td>?</td>
+        </tr>
+    </table>
+</body>
+</html>

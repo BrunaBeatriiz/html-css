@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.2em;
+            background-color: rgba(196, 196, 197, 0.904);
+            padding: 10px;
+            font-weight: bold;
+            }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        thead > tr> th{
+            position:sticky;
+            top: -1px;
+            background-color: rgb(70,69,69);
+        }
+
+
+        thead, tfoot{
+            background-color: rgb(70, 69, 69);
+            color: white;
+        }
+        tbody tr:nth-child(2n){
+            background-color: rgba(219, 219, 219, 0.849);
+            font-weight: bold;
+        }
+        tbody tr:nth-child(2n-1){
+            background-color:white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das unidades federativas do Brasil</caption>
+        <thead>
+            <th style="width: 50px;">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col"  style="width: 100px;">População</th>
+            <th style="width: 50px;">% da População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1º</td>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>3º</td>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+                <td>8,2%</td>
+            </tr>
+            <tr>
+                <td>4º</td>
+                <td>Bahia</td>
+                <td>14.873.064</td>
+                <td>7,1%</td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>Paraná</td>
+                <td>11.433.957</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>Pernambuco</td>
+                <td>9.557.071</td>
+                <td>4,5%</td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>Ceará</td>
+                <td>9.132.078</td>
+                <td>4,3%</td>
+            </tr>
+            <tr>
+                <td>9º</td>
+                <td>Pará</td>
+                <td>8.602.865</td>
+                <td>4,1%</td>
+            </tr>
+            <tr>
+                <td>10º</td>
+                <td>Santa Catarina</td>
+                <td>7.164.788</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>11º</td>
+                <td>Maranhão</td>
+                <td>7.075.181</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>12º</td>
+                <td>Goiás</td>
+                <td>7.018.354</td>
+                <td>3,3%</td>
+            </tr>
+            <tr>
+                <td>13º</td>
+                <td>Amazonas</td>
+                <td>4.144.597</td>
+                <td>2,0%</td>
+            </tr>
+            <tr>
+                <td>14º</td>
+                <td>Espírito Santo</td>
+                <td>4.018.650</td>
+                <td>1,9%</td>
+            </tr>
+            <tr>
+                <td>15º</td>
+                <td>Paraíba</td>
+                <td>4.018.127</td>
+                <td>1,9%</td>
+            </tr>
+            <tr>
+                <td>16º</td>
+                <td>Rio Grande do Norte</td>
+                <td>3.506.127</td>
+                <td>1,7%</td>
+            </tr>
+            <tr>
+                <td>17º</td>
+                <td>Mato Grosso</td>
+                <td>3.484.466</td>
+                <td>1,7%</td>
+            </tr>
+            <tr>
+                <td>18º</td>
+                <td>Alagoas</td>
+                <td>3.337.357</td>
+                <td>1,6%</td>
+            </tr>
+            <tr>
+                <td>19º</td>
+                <td>Piaui</td>
+                <td>3.273.227</td>
+                <td>1,6%</td>
+            </tr>
+            <tr>
+                <td>20º</td>
+                <td>Distrito Federal</td>
+                <td>3.015.268</td>
+                <td>1,4%</td>
+            </tr>
+            <tr>
+                <td>21º</td>
+                <td>Mato Grosso do Sul</td>
+                <td>2.776.986</td>
+                <td>1,3%</td>
+            </tr>
+            <tr>
+                <td>22º</td>
+                <td>Sergipe</td>
+                <td>2.298.696</td>
+                <td>1,1%</td>
+            </tr>
+            <tr>
+                <td>23º</td>
+                <td>Rondônia</td>
+                <td>1.777.225</td>
+                <td>0,8%</td>
+            </tr>
+            <tr>
+                <td>24º</td>
+                <td>Tocantins</td>
+                <td>1.572.866</td>
+                <td>0,7%</td>
+            </tr>
+            <tr>
+                <td>25º</td>
+                <td>Acre</td>
+                <td>881.935</td>
+                <td>0,4%</td>
+            </tr>
+            <tr>
+                <td>26º</td>
+                <td>Amapá</td>
+                <td>845.731</td>
+                <td>0,4%</td>
+            </tr>
+            <tr>
+                <td>27º</td>
+                <td>Roraima</td>
+                <td>605.751</td>
+                <td>0,3%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td></td>
+                <td><strong>210.147.125</strong></td>
+                <td><strong>99,9%</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam sed enim asperiores vitae sint numquam autem repudiandae aliquid nam recusandae omnis accusantium iusto aliquam libero vel exercitationem dicta dolor, nesciunt ipsum. Voluptatibus sed nesciunt, deserunt aliquam cum laboriosam corporis ea dolores labore omnis reprehenderit cumque sequi sunt asperiores eos vel iure, at maiores explicabo adipisci modi tempore temporibus dicta repellendus. Adipisci, ratione eveniet? Voluptate deleniti optio quibusdam at, quos error aut quas ipsam! Vitae ad quam assumenda eligendi blanditiis asperiores totam excepturi eos necessitatibus, aperiam atque odit. Minus, obcaecati ducimus magnam suscipit eveniet consequuntur officiis sit voluptate praesentium repellendus quae aperiam ratione cumque temporibus porro architecto eius. Autem minus libero eligendi, sequi voluptatum reiciendis inventore ducimus expedita molestiae. Minima, dolores dolor voluptate ad deserunt inventore quis nostrum non nulla, distinctio laudantium, quod impedit esse obcaecati. Excepturi adipisci voluptate nemo corrupti deserunt doloribus commodi, ratione sunt praesentium minima, ad velit amet eligendi rem ut quasi et explicabo necessitatibus tempore, dolor atque molestias facilis dolore asperiores? Numquam ipsam odio assumenda atque rerum, distinctio neque quia cupiditate consequatur et reiciendis similique sequi facere voluptatibus eligendi doloremque aspernatur est voluptates perspiciatis minima sapiente accusamus optio. Voluptate, porro. Cupiditate, placeat numquam ipsum cumque temporibus sequi.lorem200</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum suscipit unde quia sit reprehenderit officia deleniti magnam dolore, sed et, voluptatibus, architecto iure quisquam dicta. Maxime doloribus beatae, nihil praesentium qui nesciunt. Doloribus tempore a voluptas magni reiciendis reprehenderit temporibus, placeat optio vel nam. Molestias, dolores sint. Nemo ducimus enim sapiente minus? Ullam repudiandae vero ratione error sed laudantium nihil libero, aut sapiente, voluptatum blanditiis facere a, placeat perspiciatis nam accusantium. Maiores ea laudantium, iste minus voluptas vel molestiae error sapiente. Iste reprehenderit, assumenda similique deleniti commodi ullam dolores. Amet itaque natus sit. Voluptatem officia ducimus cupiditate amet est deleniti iusto quibusdam veritatis harum inventore dicta enim, exercitationem unde, ipsa ullam quam, atque velit reiciendis. Deleniti provident voluptatem corrupti corporis ipsum consequuntur culpa architecto quas iste, nihil sequi nobis. Quisquam repudiandae distinctio reprehenderit pariatur, eaque natus expedita dolore magnam repellat ducimus temporibus blanditiis. Corporis officiis nisi, labore voluptate ut rerum earum consectetur corrupti obcaecati eveniet veniam. Doloribus deleniti quod modi voluptatem molestias, voluptas sequi eum eveniet ut commodi tenetur error corrupti magni laudantium nisi facere dolorum architecto. Consequuntur tempore placeat, culpa fuga alias odio sint minus a repellendus? Eveniet, quis maxime veritatis et ipsa quisquam ullam numquam tenetur atque obcaecati labore cumque iure aspernatur porro. Impedit odit dolorem quia soluta ab fugit doloremque officiis tenetur mollitia in, commodi adipisci voluptatum perferendis, enim placeat porro molestias laborum? Officia fugit delectus commodi? Rem neque magni fugit sit quas maiores quia veniam? Non iure assumenda, asperiores totam consequatur, odit dolor recusandae fugiat delectus nam numquam iusto. Ipsum repellendus obcaecati nemo reiciendis reprehenderit delectus, laboriosam, atque voluptatum possimus iusto, eaque ea! Commodi, autem odit repudiandae suscipit voluptatem consequuntur! Numquam iste recusandae sit exercitationem inventore cupiditate, fugit cum veritatis nesciunt enim alias aliquid placeat distinctio quae adipisci esse nobis quod dolor soluta ducimus? Pariatur eveniet error consequatur aut ex, perferendis fuga. Dolorum temporibus autem corporis illum rerum id reprehenderit ea, voluptatibus, voluptatem quod nobis reiciendis laborum optio ratione deserunt exercitationem veniam. Doloremque, tenetur cumque? Magnam nam tempora quia quos. Aperiam ad nobis tempora deserunt fuga sed corrupti laborum magnam consectetur sequi officiis eaque alias dolor reprehenderit maxime quidem accusamus ab unde consequatur, rerum beatae. Tenetur esse qui asperiores vitae molestias quod sunt facilis dignissimos odit aliquam quos ab nam provident nostrum facere possimus necessitatibus sequi blanditiis, cupiditate molestiae similique veniam ullam ex? Sequi nisi vitae ad repellendus, unde, perspiciatis, debitis magni ullam neque repellat reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, commodi laborum. Culpa, ullam. Minima alias necessitatibus natus odit dicta deleniti a libero, quo sit. Doloribus aliquid deserunt voluptas, sequi quis distinctio. Voluptates labore, voluptatem esse perferendis sed suscipit minus molestiae incidunt dolorum ullam assumenda natus optio laudantium temporibus molestias a iusto! A nisi at necessitatibus molestias quidem eius quibusdam quasi accusantium id sed! Saepe error unde rerum non deserunt quam cupiditate deleniti esse vero maxime tenetur earum doloremque, eveniet ab incidunt, voluptatem perspiciatis provident odio, quasi nemo. Doloremque doloribus sequi nihil id facilis velit a, at hic soluta possimus dolorum eligendi iste eius vero fugiat excepturi architecto minus debitis itaque! Dolorem deserunt vitae sit, veniam hic at quasi a culpa, itaque temporibus repellendus dicta adipisci fugiat excepturi sed minima qui facere pariatur suscipit, animi alias aspernatur consectetur. Reiciendis, labore corporis dolorum quibusdam consectetur nemo et velit maiores mollitia, autem dolor, inventore placeat voluptates in? Voluptatum aperiam sapiente eveniet nesciunt eius eaque ipsa culpa consectetur earum hic, sint necessitatibus itaque cumque quis excepturi officia ipsum eum. Earum repellendus, voluptates, ratione tempora veniam quo atque consequatur maxime eveniet illum repellat odit quod impedit recusandae ipsa alias cumque minima laborum sit ducimus excepturi. Maiores, reprehenderit minima? Ea eum maxime numquam magni pariatur? Exercitationem qui eius id culpa blanditiis similique, neque ipsam quasi atque officiis impedit odit nobis excepturi magnam quae facilis doloribus ipsa. Placeat natus eos tempore molestiae, repellendus, tenetur a iure consectetur asperiores, totam consequatur fugiat tempora maiores aspernatur sit nobis? Explicabo porro ducimus debitis qui, reprehenderit quae laboriosam similique saepe consequatur, rerum inventore. Enim numquam molestias cumque velit delectus nulla, obcaecati labore excepturi eaque optio quibusdam quo illo aliquid, animi deleniti odio magni! Natus perferendis quos dolore mollitia eius ab in reiciendis repudiandae eaque, ratione voluptas repellat laborum ullam officiis et quae repellendus dolorum optio! Ipsum repudiandae fugiat non autem reprehenderit dolore animi! Tempore, sequi. Velit magnam architecto recusandae. Velit corporis harum repellat, cum itaque, provident, sint quae eligendi eum eveniet ex architecto similique. Aliquid minima obcaecati, voluptates debitis vero iure eum quas vel beatae dolor fugit assumenda velit quis perferendis deserunt. Est, dicta autem consectetur eaque labore nostrum laudantium impedit commodi aspernatur nobis maiores ea dignissimos fugiat obcaecati inventore debitis mollitia officiis sint maxime dolorem corporis. Doloremque, magni atque eveniet esse numquam exercitationem deleniti ipsum maiores obcaecati nostrum tempora eos debitis et praesentium cumque ratione? Sed ex quas impedit repellendus?
+    </p>
+</body>
+</html>
