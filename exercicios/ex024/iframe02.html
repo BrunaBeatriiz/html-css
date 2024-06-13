@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com Iframe</title>
+    <style>
+        iframe{
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+        }
+        .err{
+            width: 210px;
+            height: 80px;
+            background-color: aliceblue;
+            padding: 20px;
+            border: 1px solid rgb(0, 1, 53);
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.438);
+        }
+        .err>a{
+            text-decoration: none;
+            color: rgb(0, 1, 53);
+        }
+        .err> a:hover{
+            text-decoration: underline;
+            color:rgb(3, 3, 173);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testes com Iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorum soluta, quaerat possimus quibusdam nulla odio quisquam dolor maxime, assumenda molestias quas voluptates ullam quos libero id, rem quod nihil. Deleniti tenetur ullam alias quibusdam?. Impedit repudiandae aperiam assumenda dolorum? Doloribus facere consequatur inventore cumque vel, atque natus magnam dolore! Repudiandae quas sunt voluptates laborum in amet corrupti, necessitatibus, odio odit ducimus.</p>
+
+    <iframe src="paginas/teste01.html" frameborder="0">
+        <p class="err">Infelizmente seu navegador não é compátivel com isso.
+            Acesse aqui: <a href="paginas/teste01.html">Clique aqui!</a>
+        </p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus aliquam numquam cupiditate deleniti consequuntur quae sunt excepturi! Facilis in minima porro explicabo minus repudiandae libero tenetur, impedit natus distinctio consequatur culpa veniam reiciendis! Ea voluptatibus error inventore,Saepe ut laudantium aliquam quis, illo laboriosam ad cupiditate harum! Quas dolorum eum commodi.</p>
+</body>
+</html>
