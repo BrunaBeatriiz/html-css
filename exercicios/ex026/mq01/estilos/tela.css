@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+ /* Estilo para telas*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: rgb(129, 158, 168);
+    padding: 10px;
+    margin: 1px;
+    height: 100px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+    border: 2px solid rgb(10, 3, 73);
+    padding-bottom: 2px;
+}
+
+header > h1{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
+    font-size: 2.4em;
+    color: blanchedalmond;
+}
+header > menu > ul > li{
+    padding: 6px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);
+    display: inline-block;
+    margin-bottom: 1px;
+    background-color: rgb(35, 52, 58);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+}
+menu ul{
+    list-style-type: none;
+    
+}
+
+menu{
+    margin-left: 480px;
+}
+article > h2{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+    color: rgb(5, 5, 46);
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    text-indent: 30px;
+    background-color:rgba(255, 250, 250, 0.61);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+    border: 1px solid rgba(0, 0, 0, 0.208);
+    border-radius: 5px;
+}
