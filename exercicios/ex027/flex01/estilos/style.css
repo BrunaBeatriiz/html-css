@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+div.conteiner{
+    background-color: #025373;
+    display: flex;
+    flex-direction: column;
+}
+
+div.conteudo{
+    background-color: #A9ABD9;
+    border: 1px solid rgba(23, 23, 54, 0.247);
+    text-align: center;
+    flex: auto;
+}

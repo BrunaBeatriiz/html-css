@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*Todas as demais midias*/
+
+
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg);/*desnecessario*/
+    }
+
+    main{
+        border: 2px solid rgba(0, 0, 0, 0.849);
+        width: 60vw;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone,#tablet,#print,#tv,#pc{
+        display: none;
+        margin: auto;
+    }
+    #print{
+        display: block;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site www.brunabreatriz.com';
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    *{
+        font-size: 1.0em;
+    }
+
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone,#tablet,#print,#tv,#pc{
+        display: none;
+        margin: auto;
+    }
+    #tablet{
+        display: block;
+    }
+
+    main::after{
+        content: 'Está é a versão do site para tablets :)';
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone,#tablet,#print,#tv,#pc{
+        display: none;
+        margin: auto;
+    }
+    #pc{
+        display: block;
+    }
+    main::after{
+        content: 'Está é a versão do site para computadores :)';
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone,#tablet,#print,#tv,#pc{
+        display: none;
+        margin: auto;
+    }
+    #tv{
+        display: block;
+    }
+    main{
+        width: 500px;
+    }
+    main::after{
+        content: 'Está é a versão do site para telas de televisão :)';
+        text-align: center;
+        font-size: 1.3em;
+    }
+}

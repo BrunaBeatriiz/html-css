@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*
+#A9ABD9
+#024873
+#2474A6
+#025373
+#012E40
+Paleta de Cores:
+
+*/
+
+/*#q1{ background-color: #F2D1B3;
+width: 50px;
+height: 50px;}
+#q2{ background-color: #F2B1A2;
+width: 50px;
+height: 50px;}
+#q3{ background-color:#D98471 ;
+width: 50px;
+height: 50px;}
+#q4{ background-color: #8C423B;
+width: 50px;
+height: 50px;}
+#q5{ background-color: #40211E;
+width: 50px;
+height: 50px;}
+<div id="q1"></div>
+<div id="q2"></div>
+<div id="q3"></div>
+<div id="q4"></div>
+<div id="q5"></div>*/
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #012E40;
+}
+
+body,html{
+    background-color: #025373;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    height: 500px;
+    width: 259px;
+    background-color: #2474A6;
+    border-radius: 10px;
+    box-shadow:1px 1px 8px #40211ede;
+    border: 1px solid #88c7ee; ;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#imagem{
+    background: #025373 url(../img/pexels-sam-willis-457311-3934512.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center center ;
+    display: block;
+}
+
+
+
+section#login> div#form{
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+div#form > h1{
+    text-shadow: 1px 1px 2px #012E40;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    margin-top: 3px;
+}
+
+div#form > p{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+form > div.campo{
+    background-color: #2474A6;
+    width: 100%;
+    display: block;
+    height: 35px;
+    border-radius: 4px;
+    margin: 5px 0px;
+    border: 1px solid #012E40;
+}
+
+div.campo > input{
+    background-color:#b3b5e6f1;
+    font-size: 1em;
+    width: calc(100% - 38px);
+    height: 100%;
+    border: 0px;
+    border-radius: 6px;
+    padding: 1px;
+    transform: translateY(-8px);
+}
+
+div.campo > input:focus-within{
+    background-color: #b0b2e4f5;
+    color: #012E40;
+}
+
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1.0em;
+    width: 100%;
+    height: 35px;
+    background-color: #035385f1;
+    color: #A9ABD9;
+    border: 1px solid #A9ABD9;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-shadow: 1px 1px 1px #012E40;
+}
+form > input[type=submit]:hover {
+    background-color: #0379c2f1;
+    color: #A9ABD9;
+    border: 1px solid white;
+    cursor: pointer;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1.0em;
+    width: 100%;
+    padding: 8px 0px 0px 0px ;
+    height: 35px;
+    background-color: #012E40;
+    color: #A9ABD9;
+    border: 1px solid #A9ABD9;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px #012E40;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #024873;
+    color:#f0f1ff;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.material-symbols-outlined{
+    padding: 5px;
+    color: #012E40;
+    height: 35px;
+}

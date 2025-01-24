@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FlexBox</title>
+        <style>
+
+            div.conteiner{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            div.conteudo{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 1;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+           #a{
+            flex: 1 1 200px;
+           }
+           #b{
+             flex: 2 1 200px;
+           }
+           #c{
+            flex: 0 0 200px;
+           }
+           #d{
+            flex: 3 2 200px;
+           }
+
+           div.conteiner{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            div.conteudoa1{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 1;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudob1{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 2;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudoc1{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudod1{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 3;
+                flex-shrink: 2;
+
+            
+               /* margin: 10px;*/
+            }
+
+           #a1{
+            flex: 0 1 200px;
+           }
+           #b1{
+            flex: 1 1 200px;
+           }
+           #c1{
+            flex: 0 1 200px;
+           }
+
+           div.conteudo1a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo1b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 1;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo1c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+           
+        </style>
+    </head>
+    <body>
+         <h1>Flexible Box Module</h1>
+        <div class="conteiner">
+            <div class="conteudo" id="a">
+                A
+            </div>
+            <div class="conteudo" id="b">
+                B
+            </div>
+            <div class="conteudo" id="c">
+                C
+            </div>
+           <div class="conteudo" id="d">
+                D
+            </div>
+        </div>
+        <br>
+        <div class="conteiner">
+            <div class="conteudoa1">
+                A
+            </div>
+            <div class="conteudob1">
+                B
+            </div>
+            <div class="conteudoc1">
+                C
+            </div>
+           <div class="conteudod1">
+                D
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="conteiner">
+            <div class="conteudo" id="a1">
+                A
+            </div>
+            <div class="conteudo" id="b1">
+                B
+            </div>
+            <div class="conteudo" id="c1">
+                C
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="conteudo1a">
+                A
+            </div>
+            <div class="conteudo1b">
+                B
+            </div>
+            <div class="conteudo1c">
+                C
+            </div>
+        </div>
+    </body>
+    </html>   
+</body>
+</html>

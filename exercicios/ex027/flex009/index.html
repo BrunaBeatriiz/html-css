@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FlexBox</title>
+        <style>
+            div.conteiner{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+    
+            div.conteudo{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 250px;
+
+                flex-grow: 1;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+
+            div.conteiner1{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            div.conteudo1a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo1b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 1;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo1c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+
+
+            div.conteiner2{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+
+            div.conteudo2a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo2b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 1;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo2c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 2;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+
+
+
+            div.conteiner3{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+
+            div.conteudo3a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 1;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo3b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 2;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo3c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo3d{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 3;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+
+
+            div.conteiner4{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+
+            div.conteudo4a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo4b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo4c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 2;
+
+            
+               /* margin: 10px;*/
+            }
+            
+
+            div.conteiner5{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+
+            div.conteudo5a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 1;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo5b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 2;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo5c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 3;
+
+            
+               /* margin: 10px;*/
+            }
+           
+
+            div.conteiner6{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+
+            div.conteudo6a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo6b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 2;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo6c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 3;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo6d{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 4;
+
+            
+               /* margin: 10px;*/
+            }
+
+            div.conteiner7{
+                background-color: #025373;
+                display: flex;
+                flex-flow: row nowrap;
+                
+            }
+
+            div.conteudo7a{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo7b{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 2;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo7c{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 3;
+
+            
+               /* margin: 10px;*/
+            }
+            div.conteudo7d{
+                background-color: #A9ABD9;
+                border: 1px solid rgba(23, 23, 54, 0.247); 
+                text-align: justify;
+                padding: 8px;
+                flex-basis: 200px;
+
+                flex-grow: 0;
+                flex-shrink: 4;
+
+            
+               /* margin: 10px;*/
+            }
+
+
+        </style>
+    </head>
+    <body>
+         <h1>Flexible Box Module</h1>
+        <div class="conteiner">
+            <div class="conteudo">
+                A
+            </div>
+            <div class="conteudo">
+                B
+            </div>
+            <div class="conteudo">
+                C
+            </div>
+           <!-- <div class="conteudo">
+                D
+            </div>
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <br>
+        <div class="conteiner1">
+            <div class="conteudo1a">
+                A
+            </div>
+            <div class="conteudo1b">
+                B
+            </div>
+            <div class="conteudo1c">
+                C
+            </div>
+           <!-- <div class="conteudo">
+                D
+            </div>
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <br>
+        <div class="conteiner2">
+            <div class="conteudo2a">
+                A
+            </div>
+            <div class="conteudo2b">
+                B
+            </div>
+            <div class="conteudo2c">
+                C
+            </div>
+           <!-- <div class="conteudo">
+                D
+            </div>
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <br>
+        <div class="conteiner3">
+            <div class="conteudo3a">
+                A
+            </div>
+            <div class="conteudo3b">
+                B
+            </div>
+            <div class="conteudo3c">
+                C
+            </div>
+           <div class="conteudo3d">
+                D
+            </div>
+            <!-- 
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="conteiner4">
+            <div class="conteudo4a">
+                A
+            </div>
+            <div class="conteudo4b">
+                B
+            </div>
+            <div class="conteudo4c">
+                C
+            </div>
+            <!---
+           <div class="conteudo4d">
+                D
+            </div>
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <div class="conteiner5">
+            <div class="conteudo5a">
+                A
+            </div>
+            <div class="conteudo5b">
+                B
+            </div>
+            <div class="conteudo5c">
+                C
+            </div>
+            <!---
+           <div class="conteudo5d">
+                D
+           </div>
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <div class="conteiner6">
+            <div class="conteudo6a">
+                A
+            </div>
+            <div class="conteudo6b">
+                B
+            </div>
+            <div class="conteudo6c">
+                C
+            </div>
+           <div class="conteudo6d">
+                D
+            </div>
+            <!-- 
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="conteiner7">
+            <div class="conteudo7a">
+                A
+            </div>
+            <div class="conteudo7b">
+                B
+            </div>
+            <div class="conteudo7c">
+                C
+            </div>
+           <div class="conteudo7d">
+                D
+            </div>
+            <!-- 
+            <div class="conteudo">
+                E
+            </div>-->
+        </div>
+    </body>
+    </html>   
+</body>
+</html>

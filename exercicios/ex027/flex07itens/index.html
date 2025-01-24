@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        div.conteiner{
+            background-color: #025373;
+            display: flex;
+            flex-flow: row wrap;
+            height: 500px;
+            align-items: center;
+        }
+
+        div.conteudo{
+            background-color: #A9ABD9;
+            border: 1px solid rgba(23, 23, 54, 0.247); 
+            text-align: center;
+            padding: 8px;
+            width: 105px;
+            
+           /* margin: 10px;*/
+        }
+
+
+        div.conteudoa{
+            background-color: #A9ABD9;
+            border: 1px solid rgba(23, 23, 54, 0.247); 
+            text-align: center;
+            padding: 8px;
+            width: 105px;
+            align-self: auto;
+    
+        }
+        div.conteudob{
+            background-color: #A9ABD9;
+            border: 1px solid rgba(23, 23, 54, 0.247); 
+            text-align: center;
+            padding: 8px;
+            width: 105px;
+            align-self: flex-start
+        }
+        div.conteudoc{
+            background-color: #A9ABD9;
+            border: 1px solid rgba(23, 23, 54, 0.247); 
+            text-align: center;
+            padding: 8px;
+            width: 105px;
+            align-self: flex-end;
+    
+        }
+        div.conteudod{
+            background-color: #A9ABD9;
+            border: 1px solid rgba(23, 23, 54, 0.247); 
+            text-align: center;
+            padding: 8px;
+            width: 105px;
+            align-self: center;
+        
+        }
+        div.conteudoe{
+            background-color: #A9ABD9;
+            border: 1px solid rgba(23, 23, 54, 0.247); 
+            text-align: center;
+            padding: 8px;
+            width: 105px;
+            align-self: stretch;
+        
+        }
+    </style>
+</head>
+<body>
+     <h1>Flexible Box Module</h1>
+    <div class="conteiner">
+        <div class="conteudoa">
+            A
+        </div>
+        <div class="conteudob">
+            B
+        </div>
+        <div class="conteudoc">
+            C
+        </div>
+        <div class="conteudod">
+            D
+        </div>
+        <div class="conteudoe">
+            E
+        </div>
+    </div>
+</body>
+</html>

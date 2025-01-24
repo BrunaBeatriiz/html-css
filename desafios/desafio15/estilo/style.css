@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/*
+#F2D1B3
+#F2B1A2
+#D98471
+#8C423B
+#40211EPaleta de Cores:
+
+*/
+
+/*#q1{ background-color: #F2D1B3;
+width: 50px;
+height: 50px;}
+#q2{ background-color: #F2B1A2;
+width: 50px;
+height: 50px;}
+#q3{ background-color:#D98471 ;
+width: 50px;
+height: 50px;}
+#q4{ background-color: #8C423B;
+width: 50px;
+height: 50px;}
+#q5{ background-color: #40211E;
+width: 50px;
+height: 50px;}
+<div id="q1"></div>
+<div id="q2"></div>
+<div id="q3"></div>
+<div id="q4"></div>
+<div id="q5"></div>*/
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #40211E;
+}
+
+body{
+    background-color: #D98471;
+}
+
+main#cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#login{
+   
+    height: 500px;
+    width: 259px;
+    background-color: #F2B1A2;
+    border-radius: 10px;
+    box-shadow:1px 1px 8px #40211ede;
+    border: 1px solid #ffffffbb ;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    
+}
+
+section#login > div#imagem{
+    background: #D98471 url(../img/img1.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left center;
+    display: block;
+}
+
+
+
+section#login> div#form{
+    display: block;
+    padding: 10px;
+
+}
+div#form > h1{
+    text-shadow: 1px 1px 2px #40211eda;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    margin-top: 3px;
+}
+
+div#form > p{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+form > div.campo{
+    background-color: #D98471;
+    width: 100%;
+    display: block;
+    height: 35px;
+    border-radius: 4px;
+    margin: 5px 0px;
+    border: 1px solid #853e38;
+}
+
+div.campo > input{
+    background-color:#F2D1B3;
+    font-size: 1em;
+    width: calc(100% - 38px);
+    height: 100%;
+    border: 0px;
+    border-radius: 6px;
+    padding: 1px;
+    transform: translateY(-8px);
+}
+
+div.campo > input:focus-within{
+    background-color: #fff2e5;
+    color: #241311;
+}
+
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1.0em;
+    width: 100%;
+    height: 35px;
+    background-color: #853e38 ;
+    color: #F2D1B3;
+    border: 1px solid #F2D1B3;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-shadow: 1px 1px 1px #40211eb6;
+}
+form > input[type=submit]:hover {
+    background-color: #66312cf5;
+    color: #fff2e5;
+    border: 1px solid white;
+    cursor: pointer;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1.0em;
+    width: 100%;
+    padding: 8px 0px 0px 0px ;
+    height: 35px;
+    background-color: #40211E;
+    color: #F2D1B3;
+    border: 1px solid #F2D1B3;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px #40211eb6;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #241311;
+    color: #ffe8d3;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.material-symbols-outlined{
+    padding: 5px;
+    color: #853e38;
+    height: 35px;
+}

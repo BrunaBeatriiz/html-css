@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap'); /*Roboto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap');/*Noto Serif*/
+
+/*#2D332B
+#3B4B32
+#4F753B
+#57F500
+#5BA035
+#5DCA22*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:#2D332B ;
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: snow;
+    text-align: center;
+    padding: 8px;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 1px rgba(0, 128, 0, 0.788);
+    font-family: 'Noto Serif';
+}
+
+menu{
+    margin: 8px 50px 0px 430px;
+}
+
+li{
+    background-color: #4F753B;
+    width: 60px;
+    height: 18px;
+    float: left;
+    margin: 5px 0px 0px 6px;
+    padding: 8px;
+    list-style: none;
+    border-radius: 2px;
+}
+
+a{
+    color: snow;
+    text-shadow: 1px 1px 1px rgba(0, 128, 0, 0.774);
+    text-decoration: none;
+}
+
+body{
+    background-color:  #3b4b32e0;
+}
+main{
+    background-color:#85c464c0 ;
+    font-family: 'Roboto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 30px;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding:  8px 20px 20px 20px;
+    border: 1px solid #2d332b85;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(1, 99, 1, 0.753);
+}
+
+footer{
+    height: 50px;
+    background-color: #2D332B;
+}
+
+footer > p{
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
