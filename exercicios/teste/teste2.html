@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div#pai{
+            background-color: black;
+            height: 100px;
+            width: 100vw;
+            box-shadow: 4px 1px 8px rgba(0, 0, 0, 0.452);
+            border-radius: 4px;
+        }
+        div#filho{
+            background-color: grey;
+            height: 100px;
+            width: calc(100% - 20px);
+            transform:translateY(8px);
+            /* transform: translateX(8px); */
+            box-shadow: 4px 1px 8px rgba(0, 0, 0, 0.452);
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="pai">
+        <div id="filho"></div>
+    </div>
 </body>
 </html>
