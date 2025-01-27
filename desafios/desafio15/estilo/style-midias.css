@@ -34,6 +34,11 @@
         margin: 8px 0px;
     }
 
+    div.campo > input{
+        width: calc(100% - 38px);
+        
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -94,6 +99,10 @@
         width: 80%;
         height: 35px;
     
+    }
+    div.campo > input{
+        width: calc(100% - 38px);
+        
     }
         
 }
