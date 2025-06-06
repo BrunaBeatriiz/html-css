@@ -3,10 +3,10 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-image: linear-gradient(to right,
-            #2474A6,
-            #025373,
-            #024873,
-            #012E40
+        #d6c5d994,
+        #84B1D9,
+        #0D448C,
+        #02142ca2
         )
     }
 
@@ -14,14 +14,15 @@
         width: 75vw;
         height: 370px;
     }
+
     section#login > div#form{
         float: right;
-        width: 55%;
+        width: 60%;
     }
 
     section#login > div#imagem{
         float: left;
-        width: 45%;
+        width: 40%;
         height: 100%;
     }
 
@@ -30,48 +31,25 @@
     }
     
     div#form > p{
-        width: 80%;
-        margin: auto;
-        margin: 15px 36px;
         font-size: 1.1em;
         font-weight: 500;
-        text-align: justify;
+        margin: 8px 0px;
     }
 
-    
-    form > div.campo{
-        width: 80%;
-        height: 35px;
-        margin: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
+    div.campo > input{
+        width: calc(100% - 38px);
+        
     }
-
-
-    form > input[type=submit] {
-        margin: auto;
-        width: 80%;
-        height: 35px;
-        margin-bottom: 5px;
-    }
-    
-    form > a.botao{
-        margin: auto;
-        width: 80%;
-        height: 35px;
-    
-    }
-
 }
 
 @media screen and (min-width: 992px) {
 
     body{
         background-image: linear-gradient(to right,
-            #2474A6,
-            #025373,
-            #024873,
-            #012E40
+        #d6c5d994,
+        #84B1D9,
+        #0D448C,
+        #02142ca2
         )
     }
     section#login{
@@ -123,6 +101,11 @@
         width: 80%;
         height: 35px;
     
+    }
+
+    div.campo > input{
+        width: calc(100% - 38px);
+        
     }
         
 }
