@@ -76,7 +76,7 @@
         font-weight: 500;
         width: 80%;
         margin: auto;
-        margin: 10px 46px;
+        margin: 10px 46px 10px 51px;
         text-align: justify;
     }
 
@@ -107,5 +107,10 @@
         width: calc(100% - 38px);
         
     }
+
+    small{
+        color: #FFD700;
+        margin-left: 52px;
+     }
         
 }

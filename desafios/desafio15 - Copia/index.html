@@ -18,21 +18,23 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente, faça login para acessar sua conta.</p>
-                <form action="login.php" method="post" autocomplete="on">
+                <form action="login.php" method="post" autocomplete="on" id="meuform">
+                    <small id="msgerroe"></small>
                     <div class="campo">
                         <span class="material-symbols-outlined">
                             account_circle
                             </span>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required>
+                        <input type="email" name="login" id="iemail" placeholder="Seu e-mail" autocomplete="email" required>
                         <label for="ilogin">
                 
                         </label>
                     </div>
+                    <small id="msgerros"></small>
                     <div class="campo">
                         <span class="material-symbols-outlined">
                             key
                             </span>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="16">
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="5" maxlength="16">
                         <label for="isenha">
                     </div>
                         </label>
@@ -43,7 +45,10 @@
 
         </section>
     </main>
+    <script src="js.js"></script>
 </body>
+
+
 </html>
 
 <!--
